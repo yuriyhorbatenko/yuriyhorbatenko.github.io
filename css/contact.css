@@ -1,0 +1,135 @@
+* {box-sizing: border-box;}
+
+
+body { 
+background-image: url("../img/back.jpg");
+font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+.border {
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  border-bottom: 3px solid #cccccc;
+}
+
+
+.header {
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+
+
+.name {
+  float: left;
+  height: 57px;
+  width: 170px;
+  color: #fff;
+  background: rgba(48, 148, 141, 0.815);
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+
+.header a {
+  float: left;
+  color: #777777;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 16px; 
+  line-height: 25px;
+  border-radius: 3px;
+}
+
+
+.header a:hover {
+  background-color: rgba(48, 148, 141, 0.815);
+  color: #ffffff;
+  height: 57px;
+}
+
+
+.text {
+  width: 960px;
+  margin: 0 auto 0 auto;
+  margin-top: 40px;
+  background-color: #ffffff8a;
+  padding-left: 20px;
+  }
+
+
+.header-right {
+  float: right;
+}
+
+
+.text h1 {
+  font-size: 30px;
+  border-bottom: 3px solid #cccccc;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 20px;
+  color: rgba(48, 148, 141, 0.815);
+}
+
+
+.text p {
+  font-size: 16px;
+  text-align: justify;
+  text-align: left;
+  float: none;
+  padding-top: 20px;
+  padding-right: 20px;
+  color: #777777;
+  line-height: 25px;
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+.container {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    background-color: #ffffff8a;
+    padding: 20px;
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    border-top: 5px solid rgba(48, 148, 141, 0.815);
+    background-color: #777777;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    padding: 5px;
