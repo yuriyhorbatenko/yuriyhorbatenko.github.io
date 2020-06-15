@@ -1,0 +1,237 @@
+html, body {
+    font-family: 'Architects Daughter';
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    border-top: 3px solid rgba(48, 148, 141, 0.815);
+    background-color: #777777;
+    color: #ffffff;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding: 1px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    font-variant-caps: petite-caps;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: fixed;
+    z-index: 1;
+}
+  
+.header {
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+.name {
+    float: left;
+    height: 57px;
+    width: 170px;
+    color: #fff;
+    background: rgba(48, 148, 141, 0.815);
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 3px;
+}
+  
+  
+.header a {
+    float: left;
+    color: #777777;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px; 
+    line-height: 25px;
+    border-radius: 3px;
+}
+  
+.header a:hover {
+    background-color: rgba(48, 148, 141, 0.815);
+    color: #ffffff;
+    height: 57px;
+}
+  
+.header-right {
+    float: right;
+}
+
+#about {
+    background: url(../img/back1.jpg) no-repeat center center fixed; 
+    display: table;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    margin-top: 12rem;
+    background-color: #ffffffd8;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.text h1 {
+    font-size: 30px;
+    border-bottom: 3px solid #cccccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 20px;
+    color: rgba(48, 148, 141, 0.815);
+    font-variant-caps: petite-caps;
+    font-weight: 600;
+}
+
+.text p {
+    font-size: 16px;
+    text-align: justify;
+    text-align: left;
+    float: none;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #777777;
+    line-height: 25px;
+}
+
+.myPicture {
+    margin-top: 20px;
+    border: 3px solid #cccccc;
+    border-radius: 3px;
+    padding: 5px;
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+  
+.myPicture:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#portfolio {
+    background: url(../img/back2.jpg) no-repeat center center fixed; 
+    display: table;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.css {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    height: 300px;
+}
+
+#contact {
+    background: url(../img/back3.jpg) no-repeat center center fixed; 
+    display: table;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.mailimg, .gitimg, .linkedinimg {
+    width: 64px;
+    height: 64px;
+    padding: 5px;
+}
+
+.links {
+    height: 100px;
+    width: 920px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.css {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+
+.gallery {
+    float: left;
+    width: 250px;
+    margin-right: 40px;
+    position: relative;
+}
+  
+.portfolioPictures {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #cccccc;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 148px;
+    width: 250px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #77777798;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gallery:hover .overlay {
+    opacity: 1;
+}
+
+.desc {
+    font-variant-caps: petite-caps;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+

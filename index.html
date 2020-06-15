@@ -1,169 +1,246 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css/reset.css">
-    <link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    
-    <title>Yuriy Horbatenko</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/welcome.css">
+  <title>Yuriy Horbatenko</title>
 </head>
 
 <body>
 
-  <!-- Header section -->
-  <div class="row" id="">
-      <div class="col-12" id="header">
-        <div class="header">
-          <p class="name">Yuriy Horbatenko</p>
-      
-          <div class="header-right">
-      
-            <a href="#about" class="link">About</a>
-            <a href="#portfolio" class="link">Portfolio</a>
-            <a href="#contact" class="link">Contact</a>
-      
-          </div>
+  <div class="scrolls">
+    <div class="up"><span>↑</span>
+      <div class="center"><span>mouse <br> scrolling</span></div>
+    </div>
+    <div class="down"><span>↓</span></div>
+  </div>
+
+  <div class="smooth">
+
+    <div class="header">
+
+      <a href="#home">
+
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </div>
+
+
+    <section id="welcome">
+      <div class="welcome">
+
+        <div class="my-name">
+          Yuriy Horbatenko <br>
+          Portfolio
         </div>
+
       </div>
-  </div>  
+    </section>
 
 
 
-  <!-- First section - About -->
-  <div class="about" id="about">
+    <section id="about">
+      <div class="about">
 
-    <div class="text">
-      <h1>About Me</h1>
+        <h1>About Me</h1>
         <a target="_blank" href="img/ski.jpg"><img class="myPicture" src="img/ski.jpg" style="width:150px"></a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper urna tempus metus varius, nec sollicitudin nibh egestas. Curabitur scelerisque lacinia tempus. Fusce eu sem mollis, molestie nisi imperdiet, porttitor justo. Donec pharetra eros ligula. Donec ut massa ut nunc faucibus iaculis id a purus. Proin aliquet nulla in eros pretium, sed vestibulum ex venenatis. Nulla commodo lobortis dignissim. In ut tortor in lorem pharetra aliquam. Vivamus imperdiet est magna, non ornare elit luctus vel. </p>
-        <p>Nunc nec vestibulum velit, at consectetur turpis. Suspendisse aliquet nisl tincidunt elit pellentesque, id dapibus odio sollicitudin. Integer pellentesque, diam ac euismod sodales, leo urna maximus nisl, ut cursus justo metus nec sapien. Donec eget augue nisi. Donec pretium justo nec libero feugiat posuere. Integer id ex est. Morbi suscipit tortor eget erat cursus, quis pharetra tortor pellentesque. Pellentesque mollis pretium blandit. Morbi justo nunc, venenatis posuere iaculis sed, ultrices vel metus. Donec nec leo laoreet, fringilla mauris eu, placerat enim. Pellentesque eleifend lacus a diam ullamcorper molestie. Nunc aliquet felis at nibh pulvinar mattis. Duis sed mi lorem. Proin euismod, nulla auctor sollicitudin mollis, dolor urna porta purus, eu dictum mauris sem ut orci.</p>
-    </div>
 
-  </div>
-
-
-
-  <!-- Second section - Portfolio -->
-  <div class="portfolio" id="portfolio">
-
-    <div class="text">
-      <h1>Portfolio</h1>
-    
-      <div class="css">
-
-
-        <div class="gallery">
-            <a target="_blank" href="https://yuriyhorbatenko.github.io/TriviaGame/">
-            <img src="img/trivia.jpg" width="250" class="portfolioPictures">
-            
-            <div class="overlay">
-              <div class="desc">Music Trivia Game</div>
-            </div></a>
-        </div>
-
-
-        <div class="gallery">
-          <a target="_blank" href="https://yuriyhorbatenko.github.io/unit-4-game/">
-          <img src="img/game.jpg" width="250" height="200" class="portfolioPictures">
-          
-          <div class="overlay">
-            <div class="desc">Mortal Kombat RPG Game</div>
-          </div></a>
-        </div>
-
-
-        <div class="gallery">
-          <a target="_blank" href="https://yuriyhorbatenko.github.io/Train-Scheduler/">
-          <img src="img/Train.jpg" width="250" height="200" class="portfolioPictures">
-          
-          <div class="overlay">
-            <div class="desc">Train Scheduler</div>
-          </div></a>
-        </div>
-      
-
-        <div class="gallery">
-          <a target="_blank" href="https://yuriyhorbatenko.github.io/GifTastic/">
-          <img src="img/giftastic.jpg" width="250" height="200" class="portfolioPictures">
-          
-          <div class="overlay">
-            <div class="desc">Giphy API Search</div>
-          </div></a>
-        </div>
-
-
-        <div class="gallery">
-          <a target="_blank" href="https://yuriyhorbatenko.github.io/Project_-1/">
-          <img src="img/project1.jpg" width="250" height="200" class="portfolioPictures">
-          
-          <div class="overlay">
-            <div class="desc">Group Project #1</div>
-          </div></a>
-        </div>
-      
-
-        <div class="gallery">
-          <a target="_blank" href="https://yuriyhorbatenko.github.io/Word-Guess-Game/">
-          <img src="img/word.jpg" width="250" height="200" class="portfolioPictures">
-          
-          <div class="overlay">
-            <div class="desc">Word Guess Game</div>
-          </div></a>
-        </div>
-
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper urna tempus metus varius, nec
+          sollicitudin nibh egestas. Curabitur scelerisque lacinia tempus. Fusce eu sem mollis, molestie nisi
+          imperdiet,
+          porttitor justo. Donec pharetra eros ligula. Donec ut massa ut nunc faucibus iaculis id a purus. Proin
+          aliquet
+          nulla in eros pretium, sed vestibulum ex venenatis. Nulla commodo lobortis dignissim. In ut tortor in lorem
+          pharetra aliquam. Vivamus imperdiet est magna, non ornare elit luctus vel.
+          Nunc nec vestibulum velit, at consectetur turpis. Suspendisse aliquet nisl tincidunt elit pellentesque, id
+          dapibus odio sollicitudin. Integer pellentesque, diam ac euismod sodales, leo urna maximus nisl, ut cursus
+          justo
+          metus nec sapien. Donec eget augue nisi. Donec pretium justo nec libero feugiat posuere. Integer id ex est.
+          Morbi suscipit tortor eget erat cursus, quis pharetra tortor pellentesque. Pellentesque mollis pretium
+          blandit.
+          Morbi justo nunc, venenatis posuere iaculis sed, ultrices vel metus. Donec nec leo laoreet, fringilla mauris
+          eu,
+          placerat enim. Pellentesque eleifend lacus a diam ullamcorper molestie. Nunc aliquet felis at nibh pulvinar
+          mattis. Duis sed mi lorem. Proin euismod, nulla auctor sollicitudin mollis, dolor urna porta purus, eu
+          dictum
+          mauris sem ut orci.
+        </p>
 
       </div>
-    </div>
-  </div>
+    </section>
 
 
-  <!-- Third section - Contact -->
-  <div class="contact" id="contact">
 
-    <div class="text">
+    <section id="portfolio">
+      <div class="portfolio">
 
-     <h1>Contact</h1>
-     
-      <div class="links">
+        <div class="grid">
 
-        <a target="_blank" href="mailto: xett03@gmail.com" class="maillink">
-        <img class="mailimg" src="img/mail.png">xett03@gmail.com</a>
+          <figure class="effect-marley">
+            <img src="img/trivia.jpg" />
+            <figcaption>
+              <h2>Trivia <span>Game</span></h2>
+              <p>Languages & Technologies: HTML, CSS, Javascript, Jquery.</p>
+              <a target="_blank" href="https://github.com/yuriyhorbatenko/TriviaGame">View more</a>
+            </figcaption>
+          </figure>
 
-        <a target="_blank" href="https://github.com/yuriyhorbatenko" class="gitlink">
-        <img class="gitimg" src="img/git.png">GitHub</a>
+          <figure class="effect-marley">
+            <img src="img/giftastic.jpg" />
+            <figcaption>
+              <h2>Giphy <span>API</span></h2>
+              <p>Languages & Technologies: HTML, CSS, API, Javascript, Jquery.</p>
+              <a target="_blank" href="https://github.com/yuriyhorbatenko/GifTastic">View more</a>
+            </figcaption>
+          </figure>
 
-        <a target="_blank" href="https://www.linkedin.com/in/yuriy-horbatenko-2011911a7/" class="linkedlink">
-        <img class="linkedinimg" src="img/linkedin.png">LinkedIn</a>
+          <figure class="effect-marley">
+            <img src="img/word.jpg" />
+            <figcaption>
+              <h2>Word-Guess
+                <span>Game</span>
+              </h2>
+              <p>Languages & Technologies: HTML, CSS, Javascript.</p>
+              <a target="_blank" href="https://github.com/yuriyhorbatenko/GifTastic">View more</a>
+            </figcaption>
+          </figure>
+
+          <figure class="effect-marley">
+            <img src="img/project1.jpg" />
+            <figcaption>
+              <h2>Group <span>Project</span></h2>
+              <p>Languages & Technologies: HTML, CSS, API, Firebase, Javascript, Jquery.</p>
+              <a target="_blank" href="https://github.com/yuriyhorbatenko/Project_-1">View more</a>
+            </figcaption>
+          </figure>
+
+          <figure class="effect-marley">
+            <img src="img/project2.jpg" />
+            <figcaption>
+              <h2>Group <span>Project</span></h2>
+              <p>Languages & Technologies: HTML, CSS, Node, Handlebars, MySQL, Javascript, Jquery.</p>
+              <a target="_blank" href="https://github.com/yuriyhorbatenko/Project_-2">View more</a>
+            </figcaption>
+          </figure>
+
+          <figure class="effect-marley">
+            <img src="img/burger.jpg" />
+            <figcaption>
+              <h2>Burger <span>App </span></h2>
+              <p>Languages & Technologies: HTML, CSS, MySQL, Node, Handlebars, Jquery.</p>
+              <a target="_blank" href="https://github.com/yuriyhorbatenko/Burger">View more</a>
+            </figcaption>
+          </figure>
+
+          <figure class="effect-marley">
+            <img src="img/friends.jpg" />
+            <figcaption>
+              <h2>Friend <span>Finder</span></h2>
+              <p>Languages & Technologies: HTML, CSS, Node, Express, Jquery.</p>
+              <a target="_blank" href="https://github.com/yuriyhorbatenko/Friend-Finder">View more</a>
+            </figcaption>
+          </figure>
+
+          <figure class="effect-marley">
+            <img src="img/Train.jpg" />
+            <figcaption>
+              <h2>Train <span>Scheduler</span></h2>
+              <p>Languages & Technologies: HTML, CSS, Firebase, Javascript, Jquery.</p>
+              <a target="_blank" href="https://github.com/yuriyhorbatenko/Train-Scheduler">View more</a>
+            </figcaption>
+          </figure>
+
+          <figure class="effect-marley">
+            <img src="img/game.jpg" />
+            <figcaption>
+              <h2>RPG <span>Game</span></h2>
+              <p>Languages & Technologies: HTML, CSS, Javascript, Jquery.</p>
+              <a target="_blank" href="https://github.com/yuriyhorbatenko/unit-4-game">View more</a>
+            </figcaption>
+          </figure>
+
+          <figure class="effect-marley">
+            <iframe width="290" height="170" src="https://www.youtube.com/embed/ZWgH0ghViSI" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </figure>
+
+          <figure class="effect-marley">
+            <iframe width="290" height="170" src="https://www.youtube.com/embed/jMckOgrUj-A" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </figure>
+
+          <figure class="effect-marley">
+            <iframe width="290" height="170" src="https://www.youtube.com/embed/vw7TTaYNkGE" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </figure>
+
+
+
+        </div>
 
       </div>
+    </section>
 
-    </div>
+
+
+
+    <section id="contact">
+      <div class="contact">
+        <div class="wrapper">
+          <ul>
+            <li class="facebook"><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+            <li class="linkedin"><a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+            <li class="google"><a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
 
   </div>
 
 
 
-  <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/bio.js"></script>
-
-
 </body>
-  
-<footer>
-Copyright&copy;
-</footer>
+
 
 </html>
-  
