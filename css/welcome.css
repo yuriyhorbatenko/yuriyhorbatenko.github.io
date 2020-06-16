@@ -9,9 +9,6 @@
   animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
   text-align: center;
   font-variant: small-caps;
- 
-
- 
 }
 
 @keyframes reveal {
@@ -22,6 +19,7 @@
     background-size: 300% 300%;
   }
 }
+
 @keyframes glow {
   40% {
     text-shadow: 0 0 8px #fff;

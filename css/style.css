@@ -10,6 +10,7 @@ body {
     display: flex;
     height: 100vh;
     flex-direction: column;
+    
 }
   
 .scrolls {
@@ -76,8 +77,8 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-    color: #e978a9;
-    text-shadow: 2px 2px 2px #0000009a;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #ffffff9a;
 }
   
 .header ul li a::after {
@@ -92,7 +93,7 @@ body {
   
 .header ul li a:hover::after {
     width: 100%;
-    background-color: #e978a9;
+    background-color: #ffffff;
 }
   
 section {
@@ -105,18 +106,26 @@ section {
     justify-content: center;
     font-size: 1rem;
     background-color: #f4f4f4;
-    background-image: url(../img/12/9.jpg);
+    background-image: url(../img/12/4/3.jpg);
     background-size: cover;
     scroll-snap-align: center;
+}
+
+section:nth-child(2) {
+    background-image: url(../img/12/4/1.jpg);
+}
+
+section:nth-child(3) {
+    background-image: url(../img/12/4/2.jpg);
 }
 
 .about {
     width: 960px;
     margin: 0 auto 0 auto;
-    background-color: #ffffffd8;
+    background-color: #ffffff;
     padding-left: 20px;
     padding-bottom: 20px;
-    border-radius: 10px;
+    
 }
 
 .about h1 {
@@ -159,9 +168,8 @@ section {
 .portfolio {
     width: 960px;
     margin: 0 auto 0 auto;
-    background-color: #ffffffd8;
+    background-color: #ffffff;
     padding: 15px;
-    border-radius: 10px;
     display: flex;
     justify-content: center;
 }
